@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Template HTML for posts!
+-->
+<html>
+	<head>
+		<title>Image Super-resolution</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li class="current">
+							<a href="#">Recent Posts</a>
+							<ul>
+								<li><a href="../StripTheStripe/StripTheStripe.html">Strip the stripes!</a></li>
+								<li><a href="SuperRes.html">Super-resolution</a></li>
+								<li><a href="../PostArchive.html">Posts Archive</a></li>
+							</ul>
+						</li>
+						<li><a href="../../Publications.html">Publications</a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-12-medium">
+								<div class="sidebar">
+
+									<!-- Sidebar -->
+
+										<!-- Recent Posts -->
+											<section>
+												<h2 class="major"><span>Recent Posts</span></h2>
+												<ul class="divided">
+													<li>
+														<article class="box post-summary">
+															<h3><a href="../StripTheStripe/StripTheStripe.html">Strip the stripes!</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock">July 23, 2020</li>
+															</ul>
+														</article>
+													</li>
+													<li>
+														<article class="box post-summary">
+															<h3><a href="SuperRes.html">Super-resolution</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock">July 23, 2020</li>
+															</ul>
+														</article>
+													</li>
+												</ul>
+												<a href="../PostArchive.html" class="button alt">Archive</a>
+											</section>
+
+										<!-- Something -->
+											<section>
+												<h2 class="major"><span>Strip the Stripes!</span></h2>
+												<!-- <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a> -->
+												<p>Our goal in this work is to leverage signal processing techniques to correct the striping artifacts in FIB-SEM images while keeping the true underlying structures (approximately) intact.</p>
+												<a href="../StripTheStripe/StripTheStripe.html" class="button alt">Learn more</a>
+											</section>
+								</div>
+							</div>
+							<div class="col-9 col-12-medium imp-medium">
+								<div class="content">
+
+									<!-- Content -->
+
+										<article class="box page-content">
+
+											<header>
+												<h2>Image Super-Resolution</h2>
+												<p>Image Super-Resolution for Scanning Acoustic Microscopy. </p>
+												<ul class="meta">
+													<li class="icon fa-clock">July 23, 2020</li>
+												</ul>
+											</header>
+
+											<section>
+												<p>Scanning acoustic microscopy (SAM) is an imaging modality used to obtain 2D maps of acoustical and mechanical properties of soft tissues and uses ultrasound transducers operating at very high-frequencies. Such  transducers are challenging and costly to manufacture, and SAM systems at higher frequencies become more sensitive to experimental issues. Nevertheless, biomedical applications of SAM often require spatial resolutions nearly as good as light microscopy. In addition, stained histology photomicrographs of thin sections of tissues are easily obtained with the necessary resolution and accuracy. Consequently, the aim of this study is to introduce a bilateral approach that enhances the resolution of SAM images by leveraging the co-registered high-resolution histology image. We propose to use bilateral weighted total variation regularization to solve the super-resolution problem. A fast matrix-less solver is developed by utilizing the Alternating Direction Method of Multipliers (ADMM) and solving the  least squares problem in one ADMM step in the Fourier domain. Reconstruction results on experimentally recorded SAM and histology data show promising improvement over the classical techniques.</p>
+												<h5>Overview of the study</h5>
+												<p> The goal of this work is to use signal processing methods applied to SAM images obtained using frequencies lower than warranted for a specific investigation. A classic approach using total-variation deblurring on the low resolution SAM image is presented in previous study and has shown promising results on simulated SAM data. Here, we make use of digitized histology photographs of the same sample obtained after H&E staining. The histology photomicrographs have finer resolution than the 2D maps obtained with SAM but originate from a different contrast mechanism. Nevertheless, there is expected similarity between the edge locations with significant intensity changes in the histology and SAM images. In order to utilize these similarities, we extend the idea of bilateral filtering into the super-resolution formulation. Specifically, edge adaptive weights derived from the histology image are applied to relax the regularization penalty at pixels with expected edges. </p>
+												<h5>Sample result</h5>
+												<p>This figure shows one slice of (a) noisy, (b) denoised with FFT-RingV1, and (c) denoised with FFT-RingV2. In the lower right, we show zoomed regions and one horizontal scan line of each zoomed image. Better matching to the dark region is observed.</p>
+												<p class="image"><img src="images/SampleResult.png" alt="" /></p>
+											</section>
+												<a href="#" class="button alt">View Publication</a>
+												<a href="#" class="button alt">View Code On GitHub</a>
+
+										</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-12">
+
+								<!-- About -->
+									<section>
+										<h2 class="major"><span>Amir Khalilian</span></h2>
+										<p>
+										This is my personal webpage where I post about my projects and some other miscellaneous readings!
+										</p>
+									</section>
+
+							</div>
+							<div class="col-12">
+
+								<!-- Contact -->
+									<section>
+										<h2 class="major"><span>Get in touch</span></h2>
+										<ul class="contact">
+						<li><a href="https://github.com/amirhkhalilian" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/amirhossein-khalilian-gourtani-a3815a120" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
+						<li><a href="mailto:akg404@nyu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+
+						<!-- Copyright -->
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; Amir Khalilian. All rights reserved</li>
+								</ul>
+							</div>
+
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

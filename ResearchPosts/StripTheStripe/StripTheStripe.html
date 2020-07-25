@@ -4,10 +4,10 @@
 -->
 <html>
 	<head>
-		<title>Template post</title>
+		<title>Strip The Stripes!</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -15,17 +15,16 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="../index.html">Home</a></li>
+						<li><a href="../../index.html">Home</a></li>
 						<li class="current">
 							<a href="#">Recent Posts</a>
 							<ul>
-								<li><a href="#">Strip the stripes!</a></li>
-								<li><a href="#">Super-resolution</a></li>
-								<li><a href="PastArchive.html">Posts Archive</a></li>
+								<li><a href="StripTheStripe.html">Strip the stripes!</a></li>
+								<li><a href="../SuperRes/SuperRes.html">Super-resolution</a></li>
+								<li><a href="../PostArchive.html">Posts Archive</a></li>
 							</ul>
 						</li>
-						<!-- <li class="current"><a href="left-sidebar.html">Left Sidebar</a></li> -->
-						<li><a href="../Publications.html">Publications</a></li>
+						<li><a href="../../Publications.html">Publications</a></li>
 					</ul>
 				</nav>
 
@@ -44,7 +43,7 @@
 												<ul class="divided">
 													<li>
 														<article class="box post-summary">
-															<h3><a href="#">Strip the stripes!</a></h3>
+															<h3><a href="StripTheStripe.html">Strip the stripes!</a></h3>
 															<ul class="meta">
 																<li class="icon fa-clock">July 23, 2020</li>
 															</ul>
@@ -52,14 +51,14 @@
 													</li>
 													<li>
 														<article class="box post-summary">
-															<h3><a href="#">Super-resolution</a></h3>
+															<h3><a href="../SuperRes/SuperRes.html">Super-resolution</a></h3>
 															<ul class="meta">
 																<li class="icon fa-clock">July 23, 2020</li>
 															</ul>
 														</article>
 													</li>
 												</ul>
-												<a href="PastArchive.html" class="button alt">Archives</a>
+												<a href="../PostArchive.html" class="button alt">Archive</a>
 											</section>
 
 										<!-- Something -->
@@ -69,7 +68,7 @@
 												<p>
 												Super-resolution is the image prosseing task that generates a high-resolution image from a low-resolution image. In this post, we investigate the super-resolution for acoustic microscopy images.
 												</p>
-												<a href="#" class="button alt">Learn more</a>
+												<a href="../SuperRes/SuperRes.html" class="button alt">Learn more</a>
 											</section>
 								</div>
 							</div>
@@ -81,8 +80,8 @@
 										<article class="box page-content">
 
 											<header>
-												<h2> Template Post</h2>
-												<p> Test PosT!</p>
+												<h2>Strip The Stripes</h2>
+												<p> Artifact destection and removal for scanning electron microscopy.</p>
 												<ul class="meta">
 													<li class="icon fa-clock">July 23, 2020</li>
 												</ul>
@@ -90,89 +89,22 @@
 
 											<section>
 												<!-- <span class="image featured"><img src="images/pic05.jpg" alt="" /></span> -->
+												<p>Scanning Electron Microscopy (SEM) is a popular high resolution imaging modality for biological samples that has recently been applied to neural circuit reconstruction. For this application, relatively large volumes are imaged by repeatedly ablating away the exposed surface of the volume with a focused ion beam (FIB), which can cause beam-aligned striping artifacts in images of the remaining layers. We present an automatic pipeline designed to detect and correct for such striping artifacts while minimally degrading the unknown artifact-free image. The proposed method addresses this problem by computing a data-driven mask for the corrupted frequency band and subsequently solving a variational formulation of the image reconstruction problem using efficient methods from convex optimization. Results on simulated and real data show state-of-the-art denoising performance. </p>
+												<h5>Overview of the study</h5>
 												<p>
-													Test Text!
+												Our goal in this work is to leverage signal processing techniques to correct the striping artifacts in FIB-SEM images while keeping the true underlying structures (approximately) intact. The proposed pipeline utilizes the properties of the stripes in the Fourier domain to automatically detect the corrupted frequency band. The proposed framework then admits different variational formulations of the inverse problem allowing for a trade-off between speed and simplicity of the method on one hand and accuracy on the other. Additionally, the proposed methods take both frequency and image domain properties of the data into account.
+Results on simulated and real data show state-of-the-art denoising performance. Although this study focuses on FIB-SEM, the developed framework is general and can be easily extended to other imaging modalities.
 												</p>
+												<h5>Sample result</h5>
+												<p>This figure shows one slice of (a) noisy, (b) denoised with FFT-RingV1, and (c) denoised with FFT-RingV2. In the lower right, we show zoomed regions and one horizontal scan line of each zoomed image. Better matching to the dark region is observed.</p>
+												<p class="image"><img src="images/SampleResult.png" alt="" /></p>
 											</section>
-
-											<section>
-												<h3>More intriguing information</h3>
-												<p>
-												Some text!
-												</p>
-												<p>
-												Some text!
-												</p>
-											</section>
-
-											<section>
-												<h3>So in conclusion ...</h3>
-												<p>
-												Some text!
-												</p>
-												<img src="http://latex.codecogs.com/gif.latex?1+\sin(x)" border="0"/>
-												<p>
-												Some text!
-												</p>
-											</section>
+												<a href="https://ieeexplore.ieee.org/document/8683119" class="button alt">View Publication</a>
+												<a href="#" class="button alt">View Code On GitHub</a>
 
 										</article>
 
 								</div>
-							</div>
-							<div class="col-12">
-
-								<!-- Features -->
-									<section class="box features">
-										<h2 class="major"><span>Read More!</span></h2>
-										<div>
-											<div class="row">
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<!-- <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
-															<h3><a href="#">Super-resolution</a></h3>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<!-- <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a> -->
-															<h3><a href="#">Strip the stripes!</a></h3>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<!-- <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a> -->
-															<h3><a href="#">Cortical Networks</a></h3>
-														</section>
-
-												</div>
-												<div class="col-3 col-6-medium col-12-small">
-
-													<!-- Feature -->
-														<section class="box feature">
-															<!-- <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a> -->
-															<h3><a href="#">Granger Causality</a></h3>
-														</section>
-
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><a href="PastArchive.html" class="button large">Post Archive</a></li>
-														<li><a href="../index.html" class="button alt large">Home Page</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</section>
-
 							</div>
 						</div>
 					</div>
@@ -221,13 +153,13 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
