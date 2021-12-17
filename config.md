@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Nikola Janjušević"
+author = "Amir Khalilian"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
@@ -13,9 +13,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = author
-website_descr = "Nikola's Вебсајт"
-website_url   = "https://nikopj.github.io"
+website_title = "Amir Khalilian"
+website_descr = "Amir's website"
+website_url   = "https://amirhkhalilian.github.io"
 
 # robots
 generate_robots = true
@@ -26,6 +26,7 @@ Add here global latex commands to use throughout your pages.
 Use exclamation before Latex argument to avoid insertion of \b, ex. "!#1".
 -->
 \newcommand{\R}{\mathbb R}
+\newcommand{\scal}[1]{\langle #1 \rangle}
 \newcommand{\norm}[1]{\lVert !#1 \rVert}
 \newcommand{\abs}[1]{\lvert !#1 \rvert}
 \newcommand{\minimize}[1]{\underset{!#1}{\mathrm{minimize}\,}\,}
