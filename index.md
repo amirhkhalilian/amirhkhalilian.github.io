@@ -16,3 +16,7 @@ December 2021: Preprint article ["CDLNet: Noise-Adaptive Convolutional Dictionar
 
 ## Recent blog posts
 {{recentposts blog}}
+
+## Related Links
+* [My Google Scholar](https://scholar.google.com/citations?user=77m7Q-UAAAAJ&hl=en&oi=ao)
+* [NYU Video Lab](https://wp.nyu.edu/videolab/)
