@@ -20,6 +20,8 @@
 * ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang, and J. Mamou. *"Scanning Acoustic Microscopy Image Super-Resolution using Bilateral Weighted Total Variation Regularization."* In 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), IEEE, 2018. [pdf](https://ieeexplore.ieee.org/document/8513411)
 
 ## Preprints
+* N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for Blind Denoising and Demosaicing"* arxiv preprint, 2021. [pdf](https://arxiv.org/abs/2112.00913)
+
 * N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"CDLNet: Robust and Interpretable Denoising Through Deep Convolutional Dictionary Learning"* arxiv preprint, 2021. [pdf](https://arxiv.org/abs/2103.04779)
 
 * ~~~<u>A. Khalilian-Gourtani</u>~~~, S. Minaee, and Y. Wang. *"Masked-RPCA: Sparse and low-rank decomposition under overlaying model and application to moving object detection."* arXiv preprint, 2019. [pdf](https://arxiv.org/abs/1909.08049)
