@@ -20,6 +20,11 @@
 * ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang, and J. Mamou. *"Scanning Acoustic Microscopy Image Super-Resolution using Bilateral Weighted Total Variation Regularization."* In 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), IEEE, 2018. [pdf](https://ieeexplore.ieee.org/document/8513411)
 
 ## Preprints
+* N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"Gabor is Enough: Interpretable Deep Denoising
+with a Gabor Synthesis Dictionary Prior"* arxiv preprint, 2022. [pdf](https://arxiv.org/abs/2204.11146)
+
+* R. Wang, X. Chen, ~~~<u>A. Khalilian-Gourtani</u>~~~, L. Yu, P. Dugan, D. Friedman, W. Doyle, O. Devinsky, Y. Wang, and A. Flinker. *"Distributed Feedforward and Feedback Processing across Perisylvian Cortex Supports Human Speech"* bioarxiv preprint, 2021. [pdf](https://www.biorxiv.org/content/biorxiv/early/2021/12/07/2021.12.06.471521.full.pdf)
+
 * N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for Blind Denoising and Demosaicing"* arxiv preprint, 2021. [pdf](https://arxiv.org/abs/2112.00913)
 
 * N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"CDLNet: Robust and Interpretable Denoising Through Deep Convolutional Dictionary Learning"* arxiv preprint, 2021. [pdf](https://arxiv.org/abs/2103.04779)
