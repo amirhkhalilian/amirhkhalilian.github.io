@@ -5,13 +5,14 @@
 @@container
 @@left ![](/assets/my_avatar.jpg) @@
 @@
-Hello! As of September 2019, I am a Ph.D. candidate at NYU Electrical and Computer Engineering Department. Broadly, my interests include numerical optimization, signal processing, machine learning, and data analysis. Here, I post about topics related to my research and some other miscellaneous readings!
+Hello! In September 2022, I finshed my Ph.D. NYU Electrical and Computer Engineering Department and started my postdoc journy at NYU Langone Neurology Department. Broadly, my interests include numerical optimization, signal processing, machine learning, and data analysis. Here, I post about topics related to my research and some other miscellaneous readings!
 ~~~
 <div style="clear: both"></div>
 ~~~
 @@
 
 ## News
+September 2022: ["A Corollary Discharge Circuit in Human Speech"](https://www.biorxiv.org/content/10.1101/2022.09.12.507590v1), Preprint posted on bioRxiv.
 
 May 2022: ["Gabor is Enough: Interpretable Deep Denoising with a Gabor Synthesis Dictionary Prior"](https://arxiv.org/abs/2204.11146) accepted for presentation at *2022 IEEE Image, Video, and Multidimensional Signal Processing Workshop (IVMSP)*.
 
@@ -25,3 +26,4 @@ May 2022: ["CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for
 ## Related Links
 * [My Google Scholar](https://scholar.google.com/citations?user=77m7Q-UAAAAJ&hl=en&oi=ao)
 * [NYU Video Lab](https://wp.nyu.edu/videolab/)
+* [Flinker Lab](https://flinkerlab.org)
