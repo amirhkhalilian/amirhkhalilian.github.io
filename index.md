@@ -3,7 +3,7 @@
 # About me
 @@row
 @@container
-@@left ![](/assets/my_avatar.png) @@
+@@left ![](/assets/my_avatar.jpg) @@
 @@
 Hello! In September 2022, I finshed my Ph.D. in Electrical and Computer Engineering and started my postdoc journy at NYU Langone Neurology Department. Broadly, my interests include numerical optimization, signal processing, machine learning, and data analysis. Here, I post about topics related to my research and some other miscellaneous readings!
 ~~~
