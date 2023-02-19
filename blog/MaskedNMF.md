@@ -15,7 +15,7 @@ A solver for the NMF problem with missing data points.
 \toc
 
 ## Introduction
-Non-negative matrix factorization is a powerful tool for dimensionality reduction and data analysis. The goal  in matrix factorization, in general, is to summarize a given data matrix with two low-rank factors. In this non-negative matrix factorization (NMF), we require the factor matrices to have only non-negative elements. This is in contrast to some other factorization methods, such as principle component analysis (PCA). In this brief article, we are interested in scenarios where not all the elements in the given data matrix are measured or valid. In this case, we want to "skip" these missing elements when solving the optimization problem and finding the factor matrices.
+Non-negative matrix factorization is a powerful tool for dimensionality reduction and data analysis. The goal  in matrix factorization, in general, is to summarize a given data matrix with two low-rank factors. In this non-negative matrix factorization (NMF), we require the factor matrices to have only non-negative elements. This is in contrast to some other factorization methods, such as principle component analysis (PCA). In this brief article, we are interested in scenarios where not all the elements in the given data matrix are measured or valid. In this case, we want to "skip" these missing elements when solving the optimization problem and find the factor matrices without considering the error on those elements.
 
 ## The non-negative matrix factorization problem 
 Given the non-negative data matrix $D\in\mathbb{R}^{m\times n}_{\geq 0}$  we want to find matrices $W\in\mathbb{R}^{m\times r}_{\geq 0}$ and $H\in\mathbb{R}^{r\times n}_{\geq 0}$  such that $D\approx WH$. The optimization problem can be written as 
@@ -67,7 +67,12 @@ $$\arg\min_{W} \|M^\top\circ(D^\top-H^\top W^\top)\|_{F}^2 \quad \text{s.t.} \qu
 
 which is solved by the system of equations $H\,M^\top \circ (H^\top W^\top) = H D^\top$ for $W$ followed by a projection onto $\mathbb{R}_{\geq 0}$. Similarly, this can be diagonalized for rows of the matrix $W$ and solved via the same method.
 
-## Implementation in Matlab
+## Example: Hubble images with missing pixels
+The Hubble images dataset consists of 100 images of the Hubble telescope where each image highlights different materials. For example, five samples of these images are
+
+\figenv{}{/assets/blog/maskedNMF/sample_images.png}{width:75%}
+
+## A note on implementation in Matlab
 I implemented this algorithm in Matlab and you can find the code [here](https://github.com/amirhkhalilian/masked-nnmf). The core solver is the [`masked-nnmf`](https://github.com/amirhkhalilian/masked-nnmf/blob/main/solvers/masked_nnmf.m) function. Here is a brief overview of the main iteration.
 
 The solver function receives three main inputs:
