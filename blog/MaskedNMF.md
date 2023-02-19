@@ -143,3 +143,7 @@ parfor (i = 1:size(D,1), num_cores) % loop over rows of D
 	W(i,:) = nnlsm_blockpivot(H_mi_H, H_mi_di, true);
 end
 ```
+
+## References
+- For further reading on the NMF problem with missing data, [this paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3312-5) is a good read!
+- For the solution of non-negative least squares problem you can take a look at [this blog post](http://alexhwilliams.info/itsneuronalblog/2018/02/26/censored-lstsq/) from Alex Williams.
