@@ -70,7 +70,21 @@ which is solved by the system of equations $H\,M^\top \circ (H^\top W^\top) = H 
 ## Example: Hubble images with missing pixels
 The Hubble images dataset consists of 100 images of the Hubble telescope where each image highlights different materials. For example, five samples of these images are
 
-\figenv{}{/assets/blog/maskedNMF/sample_images.png}{width:75%}
+\figenv{}{/assets/blog/maskedNMF/sample_images.png}{width:95%}
+
+Each image is converted into a column vector and is stored in the our data matrix `D`. In this case, `D` is a matrix of size `16384 x 100` (note that each image is `128x128`). To simulate the missing pixels, we compute the masking matrix by randomly choosing 60% of the pixels.
+
+```matlab
+D = ... % load from Hubble.mat
+% create a random mask -- keep p% of enteries
+p = 0.6;
+M = rand(size(D))<=p;
+% data with missing enteries
+MD = M.*D;
+```
+The sample images when we set the missing pixels to zero are
+
+\figenv{}{/assets/blog/maskedNMF/sample_images_missing.png}{width:95%}
 
 ## A note on implementation in Matlab
 I implemented this algorithm in Matlab and you can find the code [here](https://github.com/amirhkhalilian/masked-nnmf). The core solver is the [`masked-nnmf`](https://github.com/amirhkhalilian/masked-nnmf/blob/main/solvers/masked_nnmf.m) function. Here is a brief overview of the main iteration.
