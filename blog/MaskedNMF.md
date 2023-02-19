@@ -114,7 +114,13 @@ The recovered sample images in this case are
 
 \figenv{}{/assets/blog/maskedNMF/sample_recovered_maskednnmf.png}{width:95%}
 
-As we can see, by ignoring the missing data, we can exploit the low-rank structure of the original data matrix and recover the missing pixels.
+As we can see, by ignoring the missing data, we can exploit the low-rank structure of the original data matrix and recover the missing pixels. We can further look at the factors that are found by each algorithm. Note that the `W` matrices are of size `16384 x 8` and can be viewed as eight different factor images for each method. The factor images from `nnmf` and `masked-nnmf` are
+
+\figenv{}{/assets/blog/maskedNMF/W_factors_nnmf.png}{width:95%}
+
+\figenv{}{/assets/blog/maskedNMF/W_factors_maskednnmf.png}{width:95%}
+
+We see that the method considering the masking better finds the underlying low-rank structure. 
 
 ## A note on implementation in Matlab
 I implemented this algorithm in Matlab and you can find the code [here](https://github.com/amirhkhalilian/masked-nnmf). The core solver is the [`masked-nnmf`](https://github.com/amirhkhalilian/masked-nnmf/blob/main/solvers/masked_nnmf.m) function. Here is a brief overview of the main iteration.
