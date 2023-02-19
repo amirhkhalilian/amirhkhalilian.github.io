@@ -67,5 +67,30 @@ $$\arg\min_{W} \|M^\top\circ(D^\top-H^\top W^\top)\|_{F}^2 \quad \text{s.t.} \qu
 
 which is solved by the system of equations $H\,M^\top \circ (H^\top W^\top) = H D^\top$ for $W$ followed by a projection onto $\mathbb{R}_{\geq 0}$. Similarly, this can be diagonalized for rows of the matrix $W$ and solved via the same method.
 
-## Matlab implementation
-The matlab implementation is provided [here](https://github.com/amirhkhalilian/masked-nnmf).
+## Implementation in Matlab
+I implemented this algorithm in Matlab and you can find the code [here](https://github.com/amirhkhalilian/masked-nnmf). The core solver is the [`masked-nnmf`](https://github.com/amirhkhalilian/masked-nnmf/blob/main/solvers/masked_nnmf.m) function. Here is a brief overview of the main iteration.
+
+The solver function receives three main inputs:
+- `D`: the data matrix of size `m x n`.
+- `M`: the mask matrix of size `m x n` with elements `Mij = 0` iff `Dij` is missing.
+- `r`: desired rank.
+
+The main loop consists of an update over $H$ followed by an update over $W$. Given the matrix `M` we can precompute the rows in $W_j$ and $d_j$ that we need to use when solving for $h_j$. Similarly, we find columns to use in each row of $d_i$ and $H_i$ when solving for rows  $w_i$. We write the  update iteration as:
+
+```matlab
+% update H
+WT = W';
+parfor (j = 1:size(D,2), num_cores) % loop over columns of D
+	WT_mj_dj = transpose(sum(W(rows2use{j},:).*D(rows2use{j},j),1));
+	WT_mj_W = WT(:,rows2use{j}) * W(rows2use{j},:);
+	H(:,j) = nnlsm_blockpivot(WT_mj_W, WT_mj_dj, true);
+end
+
+% update W
+HT = H';
+parfor (i = 1:size(D,1), num_cores) % loop over rows of D
+	H_mi_di = sum(H(:,cols2use{i}).*D(i,cols2use{i}),2);
+	H_mi_H = H(:,cols2use{i}) * HT(cols2use{i},:);
+	W(i,:) = nnlsm_blockpivot(H_mi_H, H_mi_di, true);
+end
+```
