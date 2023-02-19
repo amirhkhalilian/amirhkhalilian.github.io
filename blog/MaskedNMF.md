@@ -39,11 +39,11 @@ Another algorithmic solution can be achieved via alternating non-negative least 
 
 $$\arg\min_{H} \|D-WH\|_{F}^2 \quad \text{s.t.} \quad H \in \mathbb{R}^{r\times n},\quad H\geq 0,$$
 
-which is the least squares problem for $H$ with a non-negativity constraint. The solution to this problem can be determined by solving $W^\top W H=W^\top D$ for $H$ followed by a projection onto $[0,1]$. We can also use the method proposed in [this paper](https://ieeexplore.ieee.org/document/4781130) to solve this problem. The code can be found [here](http://www.cc.gatech.edu/~hpark/software/nmf_bpas.zip). Now for fixed $H$ we can write:
+which is the least squares problem for $H$ with a non-negativity constraint. The solution to this problem can be determined by solving $W^\top W H=W^\top D$ for $H$ followed by a projection onto $\mathbb{R}_{\geq 0}$. We can also use the method proposed in [this paper](https://ieeexplore.ieee.org/document/4781130) to solve this problem. The code can be found [here](http://www.cc.gatech.edu/~hpark/software/nmf_bpas.zip). Now for fixed $H$ we can write:
 
 $$\arg\min_{W} \|D^\top-H^\top W^\top\|_{F}^2 \quad \text{s.t.} \quad W \in \mathbb{R}^{m\times r},\quad W\geq 0,$$
 
-This can be minimized by solving $H H^\top W^\top = H D^\top$ for $W$, followed by the projection onto $[0,1]$. It is also recommended that we normalize the columns of $W$ to unit $\ell_2$-norm and scale the rows of $H$ accordingly after each iteration. Using changes in $\|D-WH\|_F$ per iteration, we can define the stopping criteria.
+This can be minimized by solving $H H^\top W^\top = H D^\top$ for $W$, followed by the projection onto $\mathbb{R}_{\geq 0}$. It is also recommended that we normalize the columns of $W$ to unit $\ell_2$-norm and scale the rows of $H$ accordingly after each iteration. Using changes in $\|D-WH\|_F$ per iteration, we can define the stopping criteria.
 
 ## Masked non-negative matrix factorization
 In real application, we might have a case where the columns of $D$ represent different data-points and each row represents a separate features. In this case, we might have a situation where some of the features are missing from the dataset. In the NMF formulation, we do not want to consider the error over these missing values. In other words, we only wanna consider the error on the elements in $D$ that are valid or measured and discard the error on the rest. It is fair to assume that we know which elements are missing and use this information when formulating the problem.
@@ -55,6 +55,17 @@ $$ W^{\ast}, H^{\ast} = \arg\min_{W,H} \|M\circ(D-WH)\|_{F}^2 \quad \text{s.t.} 
 where $\circ$ denotes the element-wise multiplication. The loss function in this case only considers the error in elements of $D$ where $M$ is non-zero.
 
 ### How do we add the Masking to an iterative solver?
+We can apply the ANLS algorithm to the masked problem. When we fix $W$ we get the following optimization over $H$,
+
+$$\arg\min_{H} \|M\circ(D-WH)\|_{F}^2 \quad \text{s.t.} \quad H \in \mathbb{R}^{r\times n},\quad H\geq 0.$$
+
+Following the ANLS method we have to solve $W^\top M\circ(W H)=W^\top (M\circ D)$ for $H$ followed by a projection onto $\mathbb{R}_{\geq 0}$. The derivation [here](http://alexhwilliams.info/itsneuronalblog/2018/02/26/censored-lstsq/) shows the solution without the non-negative constraint. Let $M=[m_1,\cdots,m_n]$ where $m_j$ is the $j$-th column of $M$. Then, these equations can be solved for each column of  $H$ separately by solving the linear system $W^\top \mathrm{diag}(m_j) W\,h_j=W^\top \mathrm{diag}(m_j)\,d_j$  for $h_j$. We note that this can still be solved by `nnlsm_blockpivot.m` method from [this paper](https://ieeexplore.ieee.org/document/4781130). When an element in $m_j$ is zero,  we remove the corresponding row from the linear system (technically there is no need to do this and we can directly form $W^\top \mathrm{diag}(m_j) W$ and $W^\top \mathrm{diag}(m_j)\,d_j$ and solve the linear system, however, by removing the zeros we make sure that $W^\top \mathrm{diag}(m_j) W$ does not become unnecessarily ill-conditioned).
+
+Now for fixed $H$ we can write:
+
+$$\arg\min_{W} \|M^\top\circ(D^\top-H^\top W^\top)\|_{F}^2 \quad \text{s.t.} \quad W \in \mathbb{R}^{m\times r},\quad W\geq 0,$$
+
+which is solved by the system of equations $H\,M^\top \circ (H^\top W^\top) = H D^\top$ for $W$ followed by a projection onto $\mathbb{R}_{\geq 0}$. Similarly, this can be diagonalized for rows of the matrix $W$ and solved via the same method.
 
 ## Matlab implementation
 The matlab implementation is provided [here](https://github.com/amirhkhalilian/masked-nnmf).
