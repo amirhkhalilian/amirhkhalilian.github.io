@@ -86,6 +86,36 @@ The sample images when we set the missing pixels to zero are
 
 \figenv{}{/assets/blog/maskedNMF/sample_images_missing.png}{width:95%}
 
+If we just call the `nnmf` function in Matlab with the matrix `MD` we get the NMF solution without considering the mask. Lets assume we consider rank to be eight!
+
+```matlab
+% set a rank
+r = 8;
+% run nnmf without masking
+[W_nmf,H_nmf] = nnmf(MD, r);
+% recovered estimated data
+D_hat_nmf = W_nmf*H_nmf;
+```
+The recovered sample images are
+
+\figenv{}{/assets/blog/maskedNMF/sample_recovered_nnmf.png}{width:95%}
+
+Now lets consider the solution via `masked-nnmf`. In this case, we need to provide the masking matrix `M` to the solver as well as the desired rank `r`.
+
+```matlab
+% run the solver
+[W,H] = masked_nnmf(MD, M, r,...
+                    'init_mode', 'rand',...
+                    'maxiter', 250);
+% recovered estimated data
+D_hat = W*H;
+```
+The recovered sample images in this case are
+
+\figenv{}{/assets/blog/maskedNMF/sample_recovered_maskednnmf.png}{width:95%}
+
+As we can see, by ignoring the missing data, we can exploit the low-rank structure of the original data matrix and recover the missing pixels.
+
 ## A note on implementation in Matlab
 I implemented this algorithm in Matlab and you can find the code [here](https://github.com/amirhkhalilian/masked-nnmf). The core solver is the [`masked-nnmf`](https://github.com/amirhkhalilian/masked-nnmf/blob/main/solvers/masked_nnmf.m) function. Here is a brief overview of the main iteration.
 
