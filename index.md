@@ -16,7 +16,7 @@ September 2022: ["A Corollary Discharge Circuit in Human Speech"](https://www.bi
 
 May 2022: ["Gabor is Enough: Interpretable Deep Denoising with a Gabor Synthesis Dictionary Prior"](https://arxiv.org/abs/2204.11146) accepted for presentation at *2022 IEEE Image, Video, and Multidimensional Signal Processing Workshop (IVMSP)*.
 
-May 2022: ["CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for Blind Denoising and Demosaicing"](https://ieeexplore.ieee.org/document/9769957/authors) accepted for publication in *IEEE Open Journal of Signal Processing*.
+May 2022: ["CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for Blind Denoising and Demosaicing"](https://ieeexplore.ieee.org/document/9769957) accepted for publication in *IEEE Open Journal of Signal Processing*.
 
 
 
