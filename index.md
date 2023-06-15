@@ -12,6 +12,8 @@ Hello! In September 2022, I finshed my Ph.D. in Electrical and Computer Engineer
 @@
 
 ## News
+June 2023: ["Fast and Interpretable Nonlocal Neural Networks for Image Denoising via Group-Sparse Convolutional Dictionary Learning"](https://arxiv.org/pdf/2306.01950.pdf), Preprint posted on arxiv.
+
 September 2022: ["A Corollary Discharge Circuit in Human Speech"](https://www.biorxiv.org/content/10.1101/2022.09.12.507590v1), Preprint posted on bioRxiv.
 
 May 2022: ["Gabor is Enough: Interpretable Deep Denoising with a Gabor Synthesis Dictionary Prior"](https://arxiv.org/abs/2204.11146) accepted for presentation at *2022 IEEE Image, Video, and Multidimensional Signal Processing Workshop (IVMSP)*.
