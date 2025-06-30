@@ -5,33 +5,60 @@
 
 \toc
 
-## Journal Papers
-* N. Janjusevic,~~~<u>A. Khalilian-Gourtani</u>~~~, and Y. Wang. *"CDLNet: Noise-Adaptive Convolutional Dictionary Learning Network for Blind Denoising and Demosaicing"*, IEEE Open Journal of Signal Processing, vol. -, 2022. [pdf](https://ieeexplore.ieee.org/document/9769957)
+---
 
-* ~~~<u>A. Khalilian-Gourtani</u>~~~, S. Minaee, and Y. Wang. *"Masked-RPCA: Moving Object Detection with an Overlaying Model"*, IEEE Open Journal of Signal Processing, vol. 1, 2020. [pdf](https://ieeexplore.ieee.org/abstract/document/9264716)
+## Journal Publications
 
-* M. Khoroushi, M. Sheikhi, ~~~<u>A. Khalilian-Gourtani</u>~~~, and B. Soleimani. *"Effect of root canal rinsing protocol on dentin bond strength of two resin cements using three different method of test."* Journal of clinical and Experimental Dentistry, 2016. [pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930632/)
+* Janjušević, N., **Khalilian-Gourtani, A.**, Flinker, A., & Wang, Y. *GroupCDL: Interpretable Denoising and Compressed Sensing MRI via Learned Group-Sparsity and Circulant Attention.* IEEE Transactions on Computational Imaging (2025).
 
-## Conference Papers
-* N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"Gabor is Enough: Interpretable Deep Denoising with a Gabor Synthesis Dictionary Prior"*, In 14th Image, Video, and Multidimensional Signal Processing Workshop (IVMSP), IEEE, 2022. [pdf](https://ieeexplore.ieee.org/document/9816313)
+* **Khalilian-Gourtani, A.**, Wang, R., Chen, X., ... & Flinker, A. *A corollary discharge circuit in human speech.* Proceedings of the National Academy of Sciences (2024).
 
-* ~~~<u>A. Khalilian-Gourtani</u>~~~, N. Gadgil, G. Su, and C. Fu. *"Two-Stage Method For Effective User-Guided Video Segmentation"*, In 3rd International Conference on Multimedia Information Processing and Retrieval (MIPR), IEEE, 2020. [pdf](https://ieeexplore.ieee.org/document/9175217)
+* Chen, X., Wang, R., **Khalilian-Gourtani, A.**, Yu, L., ... & Flinker, A. *A neural speech decoding framework leveraging deep learning and speech synthesis.* Nature Machine Intelligence (2024).
 
-* R. Wang, X. Chen, ~~~<u>A. Khalilian-Gourtani</u>~~~, Z. Chen, L. Yu, A. Flinker, and Y. Wang. *"Stimulus Speech Decoding from Human Cortex with Generative Adversarial Network Transfer Learning."* In IEEE International Symposium on Biomedical Imaging (ISBI 20), IEEE, 2020. [pdf](https://ieeexplore.ieee.org/document/9098589)
+* Chen, J., Chen, X., Wang, R., Le, C., **Khalilian-Gourtani, A.**, Jensen, E., ... & Wang, Y. *Subject-Agnostic Transformer-Based Neural Speech Decoding from Surface and Depth Electrode Signals.* Journal of Neural Engineering (2024).
 
-* ~~~<u>A. Khalilian-Gourtani</u>~~~, M. Tepper, V. Minden, and D. B. Chklovskii. *"Strip the stripes: Artifact Detection and Removal for Scanning Electron Microscopy Imaging."* In 44th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), IEEE, 2019. [pdf](https://ieeexplore.ieee.org/document/8683119)
+* Wang, R., Chen, X., **Khalilian-Gourtani, A.**, Yu, L., ... & Flinker, A. *Distributed feedforward and feedback cortical processing supports human speech production.* Proceedings of the National Academy of Sciences (2023).
 
-* ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang, and J. Mamou. *"Scanning Acoustic Microscopy Image Super-Resolution using Bilateral Weighted Total Variation Regularization."* In 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), IEEE, 2018. [pdf](https://ieeexplore.ieee.org/document/8513411)
+* Janjušević, N., **Khalilian-Gourtani, A.**, & Wang, Y. *CDLNet: Noise-adaptive convolutional dictionary learning network for blind denoising and demosaicing.* IEEE Open Journal of Signal Processing (2022).
+
+* **Khalilian-Gourtani, A.**, Minaee, S., & Wang, Y. *Masked-RPCA: Moving object detection with an overlaying model.* IEEE Open Journal of Signal Processing (2020).
+
+* Khoroushi, M., Sheikhi, M., **Khalilian-Gourtani, A.**, & Soleimani, B. *Effect of root canal rinsing protocol on dentin bond strength of two resin cements using three different method of test.* Journal of Clinical and Experimental Dentistry (2016).
+
+---
+
+## Conference Publications
+
+* Janjušević, N., **Khalilian-Gourtani, A.**, & Wang, Y. *Learned Primal Dual Splitting for Self-Supervised Noise-Adaptive MRI Reconstruction.* In 2025 IEEE International Symposium on Biomedical Imaging (ISBI; 2025, Accepted).
+
+* **Khalilian-Gourtani, A.**, Esmaeili, Y., & Flinker, A. *Fast & Accurate Classification of Task Stages in ECoG Generalizes to Continuous Recordings.* In 2024 Cognitive Computational Neuroscience (CCN; 2024).
+
+* Esmaeili, Y., **Khalilian-Gourtani, A.**, & Flinker, A. *Functional Connectivity Classification in ECoG during Speech Perception and Production.* In 2024 Cognitive Computational Neuroscience (CCN; 2024).
+
+* Chen, J., Chen, X., Wang, R., Le, C., **Khalilian-Gourtani, A.**, Jensen, E., ... & Wang, Y. *Subject-Agnostic Transformer-Based Neural Speech Decoding from Surface and Depth Electrode Signals.* In 2024 Cognitive Computational Neuroscience (CCN; 2024).
+
+* Janjušević, N., **Khalilian-Gourtani, A.**, & Wang, Y. *Gabor is enough: Interpretable deep denoising with a Gabor synthesis dictionary prior.* In 2022 IEEE Image, Video, and Multidimensional Signal Processing Workshop (IVMSP; 2022).
+
+* **Khalilian-Gourtani, A.**, ... & Fu, C. H. *Two-Stage Method For Effective User-Guided Video Segmentation.* In 2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR; 2020).
+
+* Wang, R., Chen, X., **Khalilian-Gourtani, A.**, Chen, Z., Yu, L., Flinker, A., & Wang, Y. *Stimulus speech decoding from human cortex with generative adversarial network transfer learning.* In 2020 IEEE International Symposium on Biomedical Imaging (ISBI; 2020).
+
+* **Khalilian-Gourtani, A.**, Tepper, M., Minden, V., & Chklovskii, D. B. *Strip the stripes: Artifact detection and removal for scanning electron microscopy imaging.* In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP; 2019).
+
+* **Khalilian-Gourtani, A.**, Wang, Y., & Mamou, J. *Scanning acoustic microscopy image super-resolution using bilateral weighted total variation regularization.* In 2018 Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC; 2018).
+
+---
+
+## Patents
+
+* **Khalilian-Gourtani, A.**, Gadgil, N. J., & Su, G. M. *User-guided image segmentation methods and products.* U.S. Patent Application No. 17/780,279 (2023).
+
+---
 
 ## Preprints
 * ~~~<u>A. Khalilian-Gourtani</u>~~~, R. Wang, X. Chen, L. Yu, P. Dugan, D. Friedman, W. Doyle, O. Devinsky, Y. Wang, and A. Flinker. *"A Corollary Discharge Circuit in Human Speech"* bioarxiv preprint, 2022. [pdf](https://www.biorxiv.org/content/10.1101/2022.09.12.507590v1)
 
-* R. Wang, X. Chen, ~~~<u>A. Khalilian-Gourtani</u>~~~, L. Yu, P. Dugan, D. Friedman, W. Doyle, O. Devinsky, Y. Wang, and A. Flinker. *"Distributed Feedforward and Feedback Processing across Perisylvian Cortex Supports Human Speech"* bioarxiv preprint, 2021. [pdf](https://www.biorxiv.org/content/biorxiv/early/2021/12/07/2021.12.06.471521.full.pdf)
 
 * N. Janjusevic, ~~~<u>A. Khalilian-Gourtani</u>~~~, Y. Wang. *"CDLNet: Robust and Interpretable Denoising Through Deep Convolutional Dictionary Learning"* arxiv preprint, 2021. [pdf](https://arxiv.org/abs/2103.04779)
 
 * ~~~<u>A. Khalilian-Gourtani</u>~~~, S. Minaee, and Y. Wang. *"Masked-RPCA: Sparse and low-rank decomposition under overlaying model and application to moving object detection."* arXiv preprint, 2019. [pdf](https://arxiv.org/abs/1909.08049)
-
-## Patents
-* ~~~<u>A. Khalilian-Gourtani</u>~~~, N. Gadgil, and G. Su. *“User-guided image segmentation methods and product,”* US Patent Application 62/944,847, Assignee: Dolby Laboratories Inc., November 2019.
-
