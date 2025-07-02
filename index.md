@@ -22,8 +22,7 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 * Feb. 2025 [GroupCDL: Interpretable Denoising and Compressed Sensing MRI via Learned Group-Sparsity and Circulant Attention](https://ieeexplore.ieee.org/document/10874214) published in IEEE Transactions on Computational Imaging.
 
 * Dec. 2024: [A corollary discharge circuit in human speech](https://www.pnas.org/doi/full/10.1073/pnas.2404121121), published in PNAS. Read the press release [here](https://nyulangone.org/news/brain-mapping-advances-understanding-human-speech-hallucinations-schizophrenia).
-
-\figenv{}{/assets/News/SNL2023/SNL_Pressent.jpg}{width:25%}
+\figenv{}{/assets/News/SNL2023/SNL_Pressent.jpg}{width:35%}
 
 
 ## Recent blog posts
