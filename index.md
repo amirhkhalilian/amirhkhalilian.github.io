@@ -24,12 +24,6 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 * Dec. 2024: [A corollary discharge circuit in human speech](https://www.pnas.org/doi/full/10.1073/pnas.2404121121), published in PNAS. Read the press release [here](https://nyulangone.org/news/brain-mapping-advances-understanding-human-speech-hallucinations-schizophrenia).
 
 @@container
-<div style="text-align: center;">
-  <img src="/assets/News/SNL2023/SNL_Pressent.jpg" alt="SNL Pressent" style="max-width: 300px; height: auto;">
-</div>
-@@
-
-@@container
 @@left ![](/assets/News/SNL2023/SNL_Pressent.jpg) @@
 @@
 
