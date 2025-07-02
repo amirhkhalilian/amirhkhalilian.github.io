@@ -5,7 +5,9 @@
 @@container
 @@left ![](/assets/my_avatar2.jpg) @@
 @@
-Hello! In September 2022, I finshed my Ph.D. in Electrical and Computer Engineering and started my postdoc journy at NYU Langone Neurology Department. Broadly, my interests include numerical optimization, signal processing, machine learning, and data analysis. Here, I post about topics related to my research and some other miscellaneous readings!
+Hello! I am Amir Khalilian, a machine learning and signal processing engineer with a deep commitment to advancing interpretable, scalable algorithms for real-world applications. My background bridges electrical engineering, computer vision, and computational neuroscience, with experience developing and applying advanced optimization, deep learning, graph-based signal processing methods. My research and engineering work have focused on designing innovative frameworks for neural signal analysis, video and image restoration, and speech decoding, resulting in multiple peer-reviewed publications, patents, and successful collaborations across academia and industry.
+
+Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expertise to investigate the neural mechanisms of speech production and perception using electrophysiological data, developing novel tools to map and decode brain activity. Beyond research, I am passionate about creating solutions that integrate rigorous mathematical foundations with machine learning to produce explainable deep-learning technologies. Whether building neuroprosthetic systems, enhancing image processing pipelines, or designing new brian connectivity analysis techniques, I aim to deliver engineering solutions that are both interpretable and transformative. Here, I post updates about my research and other topics of interest. 
 ~~~
 <div style="clear: both"></div>
 ~~~
