@@ -15,9 +15,10 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 
 ## News and Updates
 
-* July 2025: I will be presenting a turtorial at IEEE MIPR 2025, [Directly Parameterized Neural Network Construction for Generalization and Robustness](https://sites.google.com/view/mipr-2025/tutorial), August 6th-8th San Jose CA, 2025.
+* Aug. 2025: I presented a turtorial at IEEE MIPR 2025, [Directly Parameterized Neural Network Construction for Generalization and Robustness](https://sites.google.com/view/mipr-2025/tutorial).
+\figenv{}{/assets/News/MIPR2025/MIPR2025.JPG}{width:55%}
 
-* June 2025: I will be presenting an IEEE SPS Webinar with Dr. Nikola Janjušević on [Directly Parameterized Neural Network Construction for Generalization and Robustness in Imaging Inverse Problems](https://signalprocessingsociety.org/blog/sps-webinar-directly-parameterized-neural-network-construction-generalization-and-robustness), July 17th 11:30am EST. Register with the link!
+* July 2025: I presented an IEEE SPS Webinar with Dr. Nikola Janjušević on [Directly Parameterized Neural Network Construction for Generalization and Robustness in Imaging Inverse Problems](https://signalprocessingsociety.org/blog/sps-webinar-directly-parameterized-neural-network-construction-generalization-and-robustness), July 17th 11:30am EST.
 
 * Feb. 2025 [GroupCDL: Interpretable Denoising and Compressed Sensing MRI via Learned Group-Sparsity and Circulant Attention](https://ieeexplore.ieee.org/document/10874214) published in IEEE Transactions on Computational Imaging.
 
