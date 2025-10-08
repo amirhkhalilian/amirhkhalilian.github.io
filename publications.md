@@ -8,9 +8,9 @@
 
 ## Journal Publications
 
-* Michalak A., Yu L.,  **Khalilian-Gourtani, A.**, ..., & Flinker, A. *A probabilistic functional atlas based on extraoperative electrocortical stimulation mapping* Under Review (2025). [pdf](https://www.biorxiv.org/content/biorxiv/early/2025/09/17/2025.09.15.676264.full.pdf)
+* Zhou F., **Khalilian-Gourtani, A.**, ..., & Flinker, A. *Frontal cortex organization supporting audiovisual processing during naturalistic viewing.* Under Revision (2025). [pdf](https://www.biorxiv.org/content/10.1101/2025.06.26.661755v1.full.pdf)
 
-* Zhou F., **Khalilian-Gourtani, A.**, ..., & Flinker, A. *Frontal cortex organization supporting audiovisual processing during naturalistic viewing* Under Revision (2025). [pdf](https://www.biorxiv.org/content/10.1101/2025.06.26.661755v1.full.pdf)
+* Michalak, A., Yu, L.,  **Khalilian-Gourtani, A.**, ..., & Flinker, A. *A probabilistic functional atlas based on extraoperative electrocortical stimulation mapping.* Under Review (2025). [pdf](https://www.biorxiv.org/content/biorxiv/early/2025/09/17/2025.09.15.676264.full.pdf)
 
 * Janjušević, N., **Khalilian-Gourtani, A.**, Flinker, A., & Wang, Y. *GroupCDL: Interpretable Denoising and Compressed Sensing MRI via Learned Group-Sparsity and Circulant Attention.* IEEE Transactions on Computational Imaging (2025). [pdf](https://ieeexplore.ieee.org/document/10874214)
 
@@ -31,7 +31,7 @@
 
 ## Conference Publications
 
-* Emami, N., **Khalilian-Gourtani, A.**, ... & Flinker, A. *Machine Learning-Based Prediction of Speech Arrest During Direct Cortical Stimulation Mapping* In 2025 IEEE International Conference on Neural Engineering (NER; 2025).
+* Emami, N., **Khalilian-Gourtani, A.**, ... & Flinker, A. *Machine Learning-Based Prediction of Speech Arrest During Direct Cortical Stimulation Mapping.* In 2025 IEEE International Conference on Neural Engineering (NER; 2025).
 
 * Janjušević, N., **Khalilian-Gourtani, A.**, & Wang, Y. *Learned Primal Dual Splitting for Self-Supervised Noise-Adaptive MRI Reconstruction.* In 2025 IEEE International Symposium on Biomedical Imaging (ISBI; 2025).
 
