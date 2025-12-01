@@ -15,10 +15,10 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 
 ## News and Updates
 
+* Nov. 2025: New pre-print: "Mithra: An Open-Source and Cross-Platform Visualization Toolbox for Human Intracranial Recordings". [pdf](https://www.biorxiv.org/content/10.1101/2025.11.20.689539v1) [code](https://github.com/amirhkhalilian/Mithra).
+
 * Aug. 2025: I presented a turtorial at IEEE MIPR 2025, [Directly Parameterized Neural Network Construction for Generalization and Robustness](https://sites.google.com/view/mipr-2025/tutorial).
 \figenv{}{/assets/News/MIPR2025/MIPR2025.JPG}{width:55%}
-
-* July 2025: I presented an IEEE SPS Webinar with Dr. Nikola Janjušević on [Directly Parameterized Neural Network Construction for Generalization and Robustness in Imaging Inverse Problems](https://signalprocessingsociety.org/blog/sps-webinar-directly-parameterized-neural-network-construction-generalization-and-robustness), July 17th 11:30am EST.
 
 * Feb. 2025 [GroupCDL: Interpretable Denoising and Compressed Sensing MRI via Learned Group-Sparsity and Circulant Attention](https://ieeexplore.ieee.org/document/10874214) published in IEEE Transactions on Computational Imaging.
 
