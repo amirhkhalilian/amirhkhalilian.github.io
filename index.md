@@ -15,7 +15,9 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 
 ## News and Updates
 
-* Nov. 2025: New pre-print: "Mithra: An Open-Source and Cross-Platform Visualization Toolbox for Human Intracranial Recordings". [pdf](https://www.biorxiv.org/content/10.1101/2025.11.20.689539v1) [code](https://github.com/amirhkhalilian/Mithra).
+* Feb. 2026: New pre-print: "Neural Dynamics of Automatic Speech Production". [(pdf)](https://www.biorxiv.org/content/10.64898/2026.02.10.705088v1)  [(code)](https://github.com/amirhkhalilian/automatic_speech)
+
+* Nov. 2025: New pre-print: "Mithra: An Open-Source and Cross-Platform Visualization Toolbox for Human Intracranial Recordings". [(pdf)](https://www.biorxiv.org/content/10.1101/2025.11.20.689539v1)  [(code)](https://github.com/amirhkhalilian/Mithra).
 
 * Aug. 2025: I presented a turtorial at IEEE MIPR 2025, [Directly Parameterized Neural Network Construction for Generalization and Robustness](https://sites.google.com/view/mipr-2025/tutorial).
 \figenv{}{/assets/News/MIPR2025/MIPR2025.JPG}{width:55%}

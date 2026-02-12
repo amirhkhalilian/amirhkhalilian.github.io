@@ -8,7 +8,11 @@
 
 ## Journal Publications
 
-* Zhou F., **Khalilian-Gourtani, A.**, ..., & Flinker, A. *Frontal cortex organization supporting audiovisual processing during naturalistic viewing.* Under Revision (2025). [pdf](https://www.biorxiv.org/content/10.1101/2025.06.26.661755v1.full.pdf)
+* **Khalilian-Gourtani, A.**, Le C., ..., & Flinker A. *Neural Dynamics of Automatic Speech Production*. bioRxiv (2026). [pdf](https://www.biorxiv.org/content/10.64898/2026.02.10.705088v1.full.pdf)
+
+* Esmaeili Y., **Khalilian-Gourtani, A.**, ..., & Flinker, A. *Decoding state specific connectivity during speech production and perception.* eLife (2026). [pdf](https://elifesciences.org/reviewed-preprints/109566)
+
+* Zhou F., **Khalilian-Gourtani, A.**, ..., & Flinker, A. *Frontal cortex organization supporting audiovisual processing during naturalistic viewing.* Accepted Nature Comms (2026). [pdf](https://www.biorxiv.org/content/10.1101/2025.06.26.661755v1.full.pdf)
 
 * Michalak, A., Yu, L.,  **Khalilian-Gourtani, A.**, ..., & Flinker, A. *A probabilistic functional atlas based on extraoperative electrocortical stimulation mapping.* Under Review (2025). [pdf](https://www.biorxiv.org/content/biorxiv/early/2025/09/17/2025.09.15.676264.full.pdf)
 
