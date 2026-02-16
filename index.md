@@ -15,7 +15,7 @@ Currently as a postdoctoral researcher at NYU Langone Health, I leverage my expe
 
 ## News and Updates
 
-* Feb. 2026: New pre-print: "Neural Dynamics of Automatic Speech Production". [(pdf)](https://www.biorxiv.org/content/10.64898/2026.02.10.705088v1)  [(code)](https://github.com/amirhkhalilian/automatic_speech)
+* Feb. 2026: New pre-print: "Neural Dynamics of Automatic Speech Production". [(pdf)](https://www.biorxiv.org/content/10.64898/2026.02.10.705088v1)  [(code)](https://github.com/amirhkhalilian/automatic_speech) [(demo)](_assets/audio_player.html)
 
 * Nov. 2025: New pre-print: "Mithra: An Open-Source and Cross-Platform Visualization Toolbox for Human Intracranial Recordings". [(pdf)](https://www.biorxiv.org/content/10.1101/2025.11.20.689539v1)  [(code)](https://github.com/amirhkhalilian/Mithra).
 
